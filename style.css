@@ -1,0 +1,67 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #8e09d098;
+}
+
+body > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.display {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.display input {
+  width: 100%;
+  height: 48px;
+  background-color: #b20abd;
+  border: 1px solid #b20abd;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  text-align: right;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+
+.symobols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+
+.symobols button {
+  height: 50px;
+  background-color: #b20abd;
+  border: 1px solid #b20abd;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.symobols button:hover {
+  background-color: #f0f0f0;
+}
+
+.symobols button:active {
+  background-color: #e0e0e0;
+}
